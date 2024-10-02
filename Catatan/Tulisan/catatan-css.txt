@@ -1,0 +1,24 @@
+font-family: menetapkan jenis font yang akan diterapkan pada target.
+font-size: menentukan ukuran pada teks.
+font-weight: menentukan ketebalan pada teks. 
+font-style: menetapkan styling yang diterapkan pada teks.
+font-variant: menentukan teks untuk menggunakan gaya small caps (huruf kapital kecil).
+font: sebagai shorthand dari properti font yang ada.
+
+
+Normal Flow/Static Flow
+Ia adalah default behaviour yang dimiliki elemen, yakni setiap elemen block akan ditampilkan dalam baris baru ketika dibuat. Jadi, setiap elemen block selalu muncul di bawah dari elemen block sebelumnya. Bahkan, jika masih terdapat ruang kosong pada samping elemennya, mereka tidak akan tampak bersebelahan.
+Relative Positioning
+Membuat elemen dapat melakukan perpindahan posisi ke atas, kanan, bawah, ataupun kiri dari posisi semula atau posisi seharusnya elemen tersebut berada. Perpindahan posisi ini tidak akan berpengaruh terhadap posisi elemen di sekitarnya karena ketika menggunakan relative positioning elemen tersebut akan dipindahkan dari normal flow.
+Absolute Positioning
+Sama seperti relative, elemen akan dipindahkan keluar dari normal flow sehingga kita dapat memindahkan posisi elemen ke atas, kanan, bawah, ataupun kiri secara leluasa tanpa mengganggu elemen di sekitarnya. Namun, posisinya relatif terhadap jendela browser dan posisinya dapat relatif pada induk elemen selama induk elemen juga berada di luar dari normal flow.
+Fixed Positioning
+Ia merupakan absolute position. Namun, posisinya selalu relatif pada jendela browser, bahkan ketika pengguna melakukan scrolling posisinya akan tetap tampak pada posisinya di layar.
+
+//Specific Style dengan Media Query
+@media media-type and (media-feature-rule) {
+  /* CSS rules apa pun ada di sini */
+}
+Media-type: jenis media sebagai acuan bagi browser dalam menerapkan kode styling. Tipe yang dapat diberikan adalah print, screen, atau semuanya.
+Media-feature-rule: aturan atau kondisi yang harus terpenuhi agar kode styling dapat diterapkan. Kondisi yang dimaksud seperti ukuran viewport, orientasi layar, dan jenis penggunaan perangkat tunjuk (touchsceen, keyboard navigation, atau mouse).
+Media-block: sekumpulan CSS rule yang akan diterapkan jika kedua poin sebelumnya terpenuhi.

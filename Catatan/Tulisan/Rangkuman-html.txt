@@ -1,0 +1,204 @@
+Rangkuman Pendalaman HTML
+Kita telah belajar banyak hal dalam modul Pendalaman HTML. Kami siapkan rangkuman materi terhadap hal yang telah Anda pelajari selama ini. Harapannya, Anda dapat mengingat kembali setiap materi yang disampaikan.
+
+Paragraf
+Paragraf adalah elemen paling mendasar dari sebuah dokumen teks. Pada HTML, kita bisa menunjukkan sebuah paragraf dengan menggunakan elemen <p>. Contohnya berikut.
+
+Heading
+Dalam menuliskan struktur konten artikel, kita memerlukan judul sebagai topik pembahasan, paragraf sebagai penjelas dari topik yang dibawa, hingga subjudul lagi di dalamnya yang merupakan topik lebih rinci dari topik utama beserta penjelasannya (paragraf), dan seterusnya. Pada HTML, terdapat <h1> hingga <h6> elemen heading yang dapat kita gunakan.
+
+List
+Dalam membuat sebuah daftar barang, kita dapat menampilkannya dalam bentuk list. HTML memiliki elemen khusus untuk hal tersebut.
+
+Unordered List
+Unordered list merupakan daftar yang tidak mementingkan urutan. Standarnya, unordered list menampilkan bullet pada tiap item list-nya (tetapi kita bisa mengubahnya dengan styling).
+
+Ordered List
+Ordered list digunakan untuk membuat list yang mementingkan urutan. Contohnya, membuat daftar instruksi langkah demi langkah sehingga dibutuhkan urutan yang sesuai. Ordered list bekerja seperti unordered list, tetapi perbedaannya adalah pada tiap item menampilkan angka bukan sebuah bullet.
+
+Gambar
+Pada HTML untuk menampilkan sebuah gambar kita bisa menggunakan tag <img>. Berbeda dengan elemen lain, elemen <img> tidak menuliskan konten di antara tag pembuka dan tag penutup. Namun, untuk menetapkan gambar yang ditampilkan kita gunakan sebuah atribut.
+
+Hal yang perlu kita perhatikan adalah atribut pada elemen tersebut, terdapat dua elemen yang harus kita gunakan ketika menerapkan elemen <img>.
+
+src
+Atribut ini berfungsi sebagai sumber dari gambar yang ditampilkan. Atribut ini dapat bernilai url gambar atau path gambar local dari gambar yang digunakan.
+alt
+Atribut ini sebenarnya tidak wajib untuk diterapkan, hanya saja atribut ini akan sangat berguna ketika gambar tidak berhasil ditampilkan. Nilai atribut ini merupakan tampilan dari gambar yang ditampilkan dalam bentuk tulisan.
+
+Inline Formatting Text: Long Quotations, Preformatted Text, dan Figure
+Sejauh ini, kita sudah mengenal paragraf, heading, dan juga list pada HTML. Namun, masih ada beberapa lagi yang merupakan spesial teks format yang dapat kita gunakan yaitu <blockquote>, <pre> dan <figure>.
+
+Long Quotations
+Jika pada konten kita memiliki sebuah kutipan ataupun sebuah testimonial, kita dapat gunakan format long quotations dengan menggunakan tags <blockquote>. Konten di dalam elemen <blockquote> dapat berupa sebuah paragraf, heading, ataupun list.
+
+Pada elemen ini, kita dapat menggunakan atribut cite untuk menentukan sumber URL dari sebuah kutipan (jika kutipan tersebut bersumber dari sebuah situs website). Namun, tidak ada tampilan yang berbeda pada browser secara kasat mata.
+
+
+
+Preformatted Text
+HTML akan mengabaikan spasi yang dituliskan secara berulang dan juga line breaks (garis baru). Namun, pada beberapa tipe konten, seperti contoh kode atau puisi hal tersebut sangat berarti. Ada sebuah elemen yang dapat kita gunakan untuk menampilkan konten sesuai yang kita tulis pada text editor. Untuk menggunakannya, kita gunakan elemen <pre> sebagai pembungkus kontennya.
+
+Figure
+Elemen <figure> digunakan untuk mempresentasikan konten tersendiri (self-contained content), seperti ilustrasi, diagram, foto, atau bisa juga sebuah baris kode. Dalam elemen figure, kita dapat menuliskan elemen <figcaption> sebagai sebuah caption (judul) untuk konten tersebut.
+
+Berikut contoh penerapan elemen ini untuk menampilkan gambar.
+
+Inline Formatting Text: Anchor, Emphasized Text, Important Text, dan Short Quotation
+Pada standarnya, elemen HTML memiliki dua sifat, yaitu block dan inline. Elemen yang bersifat block selalu membuat baris baru ketika di-render. Contohnya seperti elemen paragraf, list, heading, dan lainnya. Lawan dari elemen tersebut, yaitu elemen inline. Elemen ini tidak menambahkan baris baru ketika di-render. Apa saja elemen tersebut? Mari kita bahas satu persatu.
+
+Anchor
+Anchor (jangkar) merupakan elemen yang digunakan untuk membuat sebuah hyperlink ke halaman atau website lain, file, alamat email, atau URL lainnya. Selain itu, ada atribut wajib agar elemen ini berfungsi dengan baik, yaitu href untuk menetapkan sebuah target yang dituju.
+
+Emphasized Text
+Gunakan elemen <em> untuk menunjukkan bagian kata yang perlu kita tekankan. Elemen ini menunjukkan stress emphasis atau konten/kata yang perlu mendapatkan penekanan atau perhatian khusus.
+
+Important Text
+Gunakan elemen <strong> untuk menunjukkan sebuah teks yang begitu penting (strong importance), serius ataupun mendesak. Artinya, teks tersebut harus dapat perhatian lebih dari teks biasa lainnya.
+
+Short Quotations
+Gunakan elemen <q> untuk menandai sebuah kutipan dalam sebuah teks. Elemen ini berbeda dengan <blockquote>. Elemen ini digunakan untuk kutipan pendek yang terletak di dalam baris (inline).
+
+Sama seperti elemen blockquote, elemen quotation marks memiliki atribut cite untuk menentukan sumber URL dari sebuah kutipan (jika kutipan tersebut bersumber dari sebuah situs website). Namun, tidak ada perbedaan yang terlihat secara kasat mata jika dijalankan di browser.
+
+
+
+Inline Formatting Text: Citation, Defining Terms, Subscript, Superscript, Highlighted Text, dan Line Break
+Kita sudah belajar banyak formatting text. Namun, ada beberapa sisanya yang belum kita bahas. Tentunya, mereka tidak kalah penting dalam membangun konten halaman web yang lebih baik. Mari kita lengkapi pembahasan ini. Jom!
+
+Citation
+Selain sebuah atribut, <cite> juga merupakan sebuah elemen yang digunakan untuk sebuah rujukan pada sebuah dokumen, contohnya sebuah buku, majalah, artikel, dan lainnya.
+
+Standarnya, pada browser sebuah teks yang diberi markup <cite> akan ditampilkan dengan huruf miring (italic).
+
+
+
+Defining Terms
+Elemen <dfn> digunakan ketika mendefinisikan sebuah istilah (term). Elemen ini harus terletak pada elemen lain yang menaunginya. Contohnya pada sebuah elemen <p> atau elemen <section>.
+
+Standar pada browser yakni sebuah teks yang diberi markup <dfn> akan ditampilkan dengan huruf miring (italic).
+
+
+
+Subscript dan Superscript
+Subscript <sub> dan superscript <sup> adalah elemen yang dapat membuat teks yang ditampilkan tampak kecil, dengan posisi di bawah (sub) atau di atas (sup) dari teks biasanya. Elemen ini digunakan untuk menunjukkan sebuah rumus kimia ataupun matematika.
+
+Highlighted Text
+Untuk menandai atau menyorot sebuah teks kita bisa menggunakan elemen <mark>. Elemen ini digunakan ketika terdapat sebuah teks yang memiliki peran penting. Biasanya teks tersebut merupakan bagian yang paling relevan atau penting dalam sebuah konteks kalimat.
+
+Standarnya, pada browser teks yang diberi markup <mark> akan ditampilkan dengan background kuning dan teks hitam.
+
+
+
+Line Break
+Inline line break element (<br>) dapat digunakan untuk memberitahu browser untuk memberikan sebuah garis baru pada baris teks. Sama seperti gambar, elemen ini merupakan elemen kosong sehingga kita tidak membutuhkan sebuah tag penutup.
+
+Semantic HTML: Mengorganisasikan Halaman Konten
+Website memiliki hierarki konten yang sama seperti dokumen sehari-hari yang kita baca, majalah, dan koran contohnya. Jadi, hierarki pada sebuah website merupakan hal yang penting. Tentu elemen yang terdapat pada HTML perlu kita kelompokkan menjadi beberapa bagian.
+
+Kita dapat menggunakan beberapa elemen dalam HTML untuk mengelompokkan sebuah elemen dengan jelas dan memiliki arti (semantic meaning). Elemen-elemen ini memiliki nama sesuai dengan fungsi atau peran dari elemen tersebut.
+
+Semantic HTML: Header, Footer, Main, dan Nav
+Sebelumnya, kita sudah melihat gambar yang mengelompokkan konten halaman web dengan terstruktur. Organisasi konten tersebut mirip seperti informasi di media cetak seperti koran, bukan? Nah, mari kita belajar beberapa elemen yang berperilaku seperti konten kepala, pokok, samping, dan kaki.
+
+Header dan Footer
+Sebuah header dan footer utama yang muncul pada awal dan akhir di sebuah halaman (<body>). Header sebagai pengantar atau pembuka konten dalam sebuah elemen <article> atau <section>, sedangkan Footer sebagai catatan kaki pada sebuah elemen <article> atau <section>.
+
+Pada contoh di bawah ini, elemen <header> digunakan untuk menampilkan nama situs dan navigasi utama serta elemen <footer> digunakan sebagai informasi hak cipta.
+
+Main
+Element <main> digunakan untuk menampung/mewadahi konten utama (dominan) dalam <body>. Konten main dapat terdiri dari banyak section, ataupun artikel, atau konten apa pun di dalam elemen main, selama ia termasuk konten utama yang dimiliki oleh website.
+
+Nav
+Elemen <nav> digunakan untuk menampung sebuah navigasi yang sifatnya penting (mayor), contohnya navigasi utama pada sebuah website.
+
+Sebuah navigation pada dasarnya sangat berguna untuk aksesibilitas website kita. Contohnya ketika pengguna website kita menggunakan screen reader dalam mengunjungi website, pengguna akan mudah mencari bagian yang dia inginkan tanpa harus menelusuri seluruh konten website.
+
+
+Semantic HTML: Articles, Aside, dan Section
+Sebelumnya, kita telah membahas beberapa elemen yang bisa dikatakan merupakan konten besar. Hal tersebut karena konten-konten tersebut terlihat jelas pembagiannya. Ada beberapa semantik HTML lainnya yang lebih kecil dan spesifik tentunya. Kali ini, kita akan membahasnya.
+
+Articles
+Elemen <article> bertindak sebagai container untuk independent content pada sebuah halaman, artinya konten utuh yang tidak terkait dengan konten lain, bisa saja sebuah artikel blog, komentar, forum post dan konten lainnya.
+
+Elemen <article> dapat berada pada elemen <article> lainnya (nested) selama artikel tersebut berkaitan dengan induk elemen <article> yang menampungnya.
+
+
+
+Aside
+Elemen <aside> memiliki dua tujuan, tergantung kita menempatkannya di dalam sebuah elemen <article> atau tidak.
+
+Ketika elemen ini ditempatkan di dalam elemen <article>, elemen ini dapat berisi informasi yang berhubungan dengan artikel tersebut, tetapi bukan bagian dari konten artikelnya itu sendiri (dipisahkan dari konten utama). 
+
+Ketika elemen ini ditempatkan di luar elemen <article>, elemen ini dapat berisi informasi yang berhubungan pada keseluruhan halaman.
+
+Elemen <aside> biasanya terletak di samping dari sebuah elemen yang menampungnya.
+
+Section
+Sebuah elemen yang memiliki kesamaan konten dan sebuah heading di dalamnya dapat dikelompokkan dengan menggunakan elemen <section>. Dengan begitu elemen ini dapat digunakan pada sebuah elemen <article> yang memiliki konten panjang dan berpotensi untuk dikelompokkan.
+
+Generic Element
+HTML menyediakan dua tipe elemen umum (generic element) yang bisa kita kustomisasi untuk menggambarkan konten kita dengan tepat, yaitu div dan span. Elemen ini akan terlibat jika tidak ada semantic element sesuai di HTML.
+
+Div
+Elemen <div> merupakan sebuah wadah (container) yang bersifat umum untuk menampung beberapa konten. Elemen ini tidak akan memberikan efek apa pun pada konten atau layout sebelum menerapkan sebuah style menggunakan CSS.
+
+Span
+Elemen <span> memberikan manfaat yang sama seperti <div>, bedanya elemen ini digunakan sebagai phrase elements dan tidak terdapat line breaks ketika menggunakannya. Sederhananya, <span> merupakan sebuah <div> yang digunakan dalam sebuah baris teks yang dapat diwadahi oleh paragraf, list, heading, atau lainnya.
+
+Tabel
+Elemen <table> pada HTML merepresentasikan data tabular, yaitu informasi yang disajikan dalam sebuah tabel. Tabel sendiri disajikan dalam dua dimensi terdiri dari baris dan kolom (cell) yang berisikan sebuah data. Berikut adalah contoh data sepak bola yang disajikan dalam bentuk tabel.
+
+Struktur Dasar Tabel
+Tabel pada HTML disusun dari tiga buah elemen, yaitu <table>, <tr> dan <td> atau <th>. Elemen <table> digunakan untuk menandakan dimulainya dan diakhirinya sebuah konten tabel dan juga sebagai wadah untuk tabel itu sendiri. Kemudian elemen <tr> digunakan untuk membuat sebuah baris baru yang di dalamnya terdapat elemen <td> atau <th> sehingga menghasilkan sebuah sel.
+
+
+Spanning Cell
+Dalam aplikasi seperti Microsoft Word, hal ini biasa kita kenal sebagai merging cell atau menggabungkan sebuah sel. Ini memang menjadi sebuah fitur dasar dalam membuat sebuah tabel sehingga pada HTML pun kita dapat melakukan hal tersebut. 
+
+Pada HTML hal ini lebih dikenal sebagai spanning cell, yang artinya menjangkau atau merentangkan sebuah ukuran sel lebih dari ukuran yang biasanya.
+
+
+Input User
+Hampir seluruh website memiliki elemen input. Data yang dimasukkan akan diproses untuk kebutuhan operasional website dalam menunjang pekerjaan manusia. Ada banyak sekali macam-macam input di dunia ini. Namun, jangan khawatir! HTML menyediakan beragam input yang dapat dimanfaatkan. Berikut daftarnya.
+
+Input Element
+Elemen <input> merupakan elemen yang sangat sering dipakai untuk mendapatkan data dari user. Mengapa hal tersebut terjadi? Hal ini karena elemen input memiliki banyak sekali tipe-tipenya, mulai dari teks, password, email, search, file, dsb. Tidak hanya itu, dari sekian tipe input, masing-masingnya juga didukung oleh atribut khusus sehingga pembuatan formulir semakin powerful.
+
+Berikut adalah contoh penerapan dari input element.
+
+Textarea Element
+HTML memiliki elemen khusus yang memungkinkan user menuliskan teks dalam banyak baris. Kenalilah elemen <textarea>! Elemen ini berbeda dengan elemen input sebelumnya. Selain nama elemen yang menjadi pembeda, elemen textarea memiliki tag penutup agar dapat berfungsi dengan baik.
+
+Berikut contoh penerapannya.
+
+Label Element
+Pembuatan elemen input sudah umum jika dijajarkan dengan elemen label. Ada banyak sekali keuntungan jika memberikan keterangan pada masing-masing elemen input. Beberapa keuntungan penerapan label untuk elemen input sebagai berikut.
+
+Elemen input yang berasosiasi dengan elemen label akan memberikan kemampuan bagi screen reader untuk menjelaskan fungsi dari elemen input tersebut.
+Memberikan kemampuan bagi browser untuk mengalihkan langsung pada elemen input saat elemen label yang berasosiasi dengannya ditekan atau klik.
+Perhatikan contoh kode berikut.
+
+Atribut pada Elemen Input
+Selain banyaknya variasi elemen input, ada banyak atribut yang tersedia untuk memaksimalkan pembuatan formulir. Ada atribut yang bekerja untuk semua tipe input dan ada atribut yang hanya dikhususkan bagi satu tipe.
+
+Berikut adalah contoh penerapan atribut placeholder dan required.
+
+Mengirim Data Formulir
+Berbicara mengenai mengirim data dari formulir ke server, kita membutuhkan satu elemen esensial dalam membangun formulir. Sebelumnya, kita hanya belajar tentang variasi elemen input untuk mendapatkan data yang sesuai. Ada satu elemen yang berfungsi sebagai wrapper (pembungkus) dari keseluruhan kolom input atau formulir. Elemen yang dimaksud adalah <form>.
+
+Jika diterapkan, berikut adalah contoh sederhana penerapan elemen form.
+
+Dalam mengirimkan data ke server, kita wajib menerapkan atribut name pada seluruh kolom input dalam formulir. Selain itu, ada dua hal yang perlu dilakukan untuk mengirim data ke server, yaitu menetapkan atribut action dan method pada elemen <form>. 
+
+
+
+Special Character
+Ada beberapa karakter spesial seperti copyright symbol (©) yang tidak termasuk ke dalam standar kelompok ASCII characters. ASCII characters hanya menyediakan karakter seperti huruf, nomor, dan beberapa simbol dasar lainnya.
+
+HTML memerlukan sebuah “escaped” character untuk menampilkan karakter khusus. Ada dua cara untuk melakukannya, yakni menetapkan nilai numerik (numeric entity) atau menggunakan nama singkatan yang sudah ditetapkan untuk masing-masing karakternya (named entity). Semua referensi karakter dimulai dengan “&” dan diakhiri dengan “;”.
+
+Perhatikan contoh kode berikut.
+
+
+
